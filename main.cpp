@@ -23,7 +23,9 @@ int main()
     else {
         cout<<"you should keep a low profile."<<endl;    
          } 
-    if (lastname[0] == 'A' || lastname[0] == 'a' || lastname[0] == 'E' || lastname[0] == 'e' || lastname[0] == 'I' || lastname[0] == 'i' || lastname[0] == 'O' || lastname[0] == 'o' || lastname[0] == 'U' || lastname[0] == 'u'){
+int index = lastname.length()-1;
+
+    if (lastname[index] == 'A' || lastname[index] == 'a' || lastname[index] == 'E' || lastname[index] == 'e' || lastname[index] == 'I' || lastname[index] == 'i' || lastname[index] == 'O' || lastname[index] == 'o' || lastname[index] == 'U' || lastname[index] == 'u'){
         cout<<"You have already met your true love"<<endl;
                                                                                                          }
     cout<<"have a good day!"<<endl;
