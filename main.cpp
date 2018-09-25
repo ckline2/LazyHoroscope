@@ -26,7 +26,7 @@ int main()
 int index = lastname.length()-1;
 
     if (lastname[index] == 'A' || lastname[index] == 'a' || lastname[index] == 'E' || lastname[index] == 'e' || lastname[index] == 'I' || lastname[index] == 'i' || lastname[index] == 'O' || lastname[index] == 'o' || lastname[index] == 'U' || lastname[index] == 'u'){
-        cout<<"You have already met your true love"<<endl;
+        cout<<"you have already met your true love."<<endl;
                                                                                                          }
     cout<<"have a good day!"<<endl;
   return 0; 
